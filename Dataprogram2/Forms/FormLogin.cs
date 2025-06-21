@@ -54,7 +54,7 @@ namespace Dataprogram2.Forms
                     this.Hide();
                     if (role == "管理员")
                     {
-                        new FormAdminMain(userId).Show();
+                        new FormAdminDashboard(userId).Show();
                     }
                     else
                     {
@@ -67,6 +67,6 @@ namespace Dataprogram2.Forms
                 }
             }
         }
-        }
+        
     }
-}
+ }

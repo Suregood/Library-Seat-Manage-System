@@ -2,7 +2,7 @@
 
 namespace Dataprogram2.Forms
 {
-    partial class FormAdminMain
+    partial class FormAdminDashboard
     {
         private System.ComponentModel.IContainer components = null;
 

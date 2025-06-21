@@ -17,7 +17,7 @@ namespace Dataprogram2.Forms
     {
         private int _userId;
         private int selectedSeatId = -1;
-        public FormUserReservation()
+        public FormUserReservation(int userId)
         {
             InitializeComponent();
             _userId = userId;

@@ -15,7 +15,7 @@ namespace Dataprogram2.Forms
     public partial class FormMyReservations: Form
     {
         private int _userId;
-        public FormMyReservations()
+        public FormMyReservations(int userId)
         {
             InitializeComponent();
             _userId = userId;

@@ -15,7 +15,7 @@ namespace Dataprogram2.Forms
     public partial class FormCheckIn: Form
     {
         private int _userId;
-        public FormCheckIn()
+        public FormCheckIn(int userId)
         {
             InitializeComponent();
             _userId = userId;

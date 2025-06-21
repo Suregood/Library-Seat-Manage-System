@@ -10,14 +10,16 @@ using System.Windows.Forms;
 
 namespace Dataprogram2.Forms
 {
-    private int _userId;
-    public partial class FormUserMain: Form
+    public partial class FormUserMain : Form
     {
-        public FormUserMain()
+        private int _userId; // 修正位置：移动到类内部
+
+        public FormUserMain(int userId) // 构造函数参数使用小写
         {
             InitializeComponent();
-            _userId = userId;
+            _userId = userId; // 修正大小写匹配参数名
         }
+
         private void FormUserMain_Load(object sender, EventArgs e)
         {
             lblWelcome.Text = $"欢迎，用户编号：{_userId}";

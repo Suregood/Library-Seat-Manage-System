@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibrarySeatSystem;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,15 +11,17 @@ using System.Windows.Forms;
 
 namespace Dataprogram2.Forms
 {
-    public partial class FormAdminMain: Form
+    public partial class FormAdminDashboard: Form
     {
-        public FormAdminMain()
+        private int _userId;
+        public FormAdminDashboard(int userId)
         {
             InitializeComponent();
+            _userId = _userId;
         }
         private void btnUserMgmt_Click(object sender, EventArgs e)
         {
-            FormUserManagement userForm = new FormUserManagement();
+            FormUserManage userForm = new FormUserManage();
             userForm.ShowDialog();
         }
 
@@ -36,7 +39,7 @@ namespace Dataprogram2.Forms
 
         private void btnCheckinReport_Click(object sender, EventArgs e)
         {
-            FormCheckinReport reportForm = new FormCheckinReport();
+            FormCheckInReport reportForm = new FormCheckInReport();
             reportForm.ShowDialog();
         }
 

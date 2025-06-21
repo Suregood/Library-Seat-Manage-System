@@ -39,6 +39,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,17 +57,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormAdminMain.cs">
+    <Compile Include="Forms\FormAdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormAdminMain.Designer.cs">
-      <DependentUpon>FormAdminMain.cs</DependentUpon>
+    <Compile Include="Forms\FormAdminDashboard.Designer.cs">
+      <DependentUpon>FormAdminDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormCheckIn.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormCheckIn.Designer.cs">
       <DependentUpon>FormCheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCheckInReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCheckInReport.Designer.cs">
+      <DependentUpon>FormCheckInReport.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormLibraryManage.cs">
       <SubType>Form</SubType>
@@ -92,11 +99,23 @@
     <Compile Include="Forms\FormReports.Designer.cs">
       <DependentUpon>FormReports.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormReservationStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormReservationStats.Designer.cs">
+      <DependentUpon>FormReservationStats.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormSeatManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormSeatManage.Designer.cs">
       <DependentUpon>FormSeatManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSeatManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSeatManagement.Designer.cs">
+      <DependentUpon>FormSeatManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormUserMain.cs">
       <SubType>Form</SubType>
